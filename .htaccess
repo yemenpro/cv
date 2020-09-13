@@ -17,3 +17,7 @@ ExpiresByType image/x-icon "access 1 year"
 ExpiresDefault "access 2 days"
 
 ## EXPIRES HEADER CACHING ##
+
+# TN - BEGIN Turn ETags Off
+FileETag None
+# TN - END Turn ETags Off
