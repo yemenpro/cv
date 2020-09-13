@@ -1,8 +1,10 @@
-<filesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|svg)$">
+<filesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|svg|ttf|otf|woff|woff2)$">
 Header set Cache-Control "max-age=84600, public"
 ## EXPIRES HEADER CACHING ##
 
 ExpiresActive On
+
+# Add correct content-type for fonts
 AddType application/vnd.ms-fontobject .eot
 AddType font/ttf .ttf
 AddType font/otf .otf
@@ -12,7 +14,6 @@ AddType image/svg+xml .svg
 
 ExpiresByType image/jpg "access 1 year"
 ExpiresByType image/jpeg "access 1 year"
-ExpiresByType image/svg "access 1 year"
 ExpiresByType image/gif "access 1 year"
 ExpiresByType image/png "access 1 year"
 ExpiresByType text/css "access 1 month"
