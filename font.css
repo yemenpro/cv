@@ -1,20 +1,20 @@
 @font-face {
   font-family: titleFont;
-  src: url(fonts/rekaa.ttf);
+  src: url(rekaa.ttf);
 }
 @font-face {
   font-family: jobFont;
-  src: url(fonts/brush.otf);
+  src: url(brush.otf);
 }
 
 @font-face {
   font-family: bodyFont;
-  src: url(fonts/moh.ttf);
+  src: url(moh.ttf);
 }
 
 @font-face {
   font-family: decFont;
-  src: url(fonts/design.ttf);
+  src: url(design.ttf);
 }
 
 h1.myname {
