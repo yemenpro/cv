@@ -1,0 +1,40 @@
+@font-face {
+  font-family: titleFont;
+  src: url(fonts/rekaa.ttf);
+}
+@font-face {
+  font-family: jobFont;
+  src: url(fonts/brush.otf);
+}
+
+@font-face {
+  font-family: bodyFont;
+  src: url(fonts/moh.ttf);
+}
+
+@font-face {
+  font-family: decFont;
+  src: url(fonts/design.ttf);
+}
+
+h1.myname {
+  font-family: titleFont! important;
+}
+
+.hfont {
+font-family: jobFont! important;
+}
+
+.bfont {
+font-family: bodyFont! important;
+}
+
+.dfont {
+font-family: decFont! important;
+}
+
+.fab {
+  margin:5px;
+}
+
+
