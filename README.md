@@ -19,31 +19,10 @@
     />
     <link href="css/cv.css" rel="stylesheet" type="text/css">
     <link href="css/font.css" rel="stylesheet" type="text/css">
-    <script
-      src="https://kit.fontawesome.com/d47864a136.js"
-      crossorigin="anonymous"
-    ></script>
 </head>
   <body class="text-right" dir="rtl">
     <section class="cv-preview-page">
-    <header class="cv-page">
-      <div class="container-fluid">
-        <div class="d-flex justify-content-center bg-dark">
-          <div class="d-flex">
-            <a href="https://wa.me/967730054543">
-              <img alt="المحترف اليمني" class="logo p-2" src="img/logo.svg" width="66">
-            </a>
-          </div>
-          <div class="d-flex">
-            <div class="header-btns p-2">
-              <a target="_blank" href="doc/Abdulaziz_Alnahari_cv.pdf" class="download-cv bfont">تحميل السيرة الذاتية
-                <i class="fas fa-download"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header><br>
+    <br>
     <div class="cv-pages">
       <div class="container-fluid">
         <div class="cv-pages-wrap">
